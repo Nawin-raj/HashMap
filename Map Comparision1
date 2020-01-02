@@ -1,0 +1,21 @@
+package com.collections;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		Map<String, Integer> map1 = new HashMap<>();
+
+		Map<String, Integer> map2 = new LinkedHashMap<>();
+
+		// if u want to sort in decending use --Collections.reverseOrder()--
+		Map<String, Integer> map3 = new TreeMap<>();
+
+	}
+
+}
