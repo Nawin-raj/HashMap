@@ -1,3 +1,3 @@
 # Java-Related
 
-Refer java2blog for interview questions
+Refer---->  java2blog, https://howtodoinjava.com  for interview questions
