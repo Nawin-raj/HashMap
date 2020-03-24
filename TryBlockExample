@@ -1,0 +1,36 @@
+package arrays;
+
+/**
+ * @author Try block Refer java2blog
+ *         Can we have try without catch block in java :
+ *         we can have try  without catch block by using finally block.
+ 
+ *         What happens when you have return statement in try block: If you have
+ *         return statement in try block, still finally block executes
+ *         
+ *         What happens if you have return statement in finally block too:
+			It overrides whatever is returned by try block
+ */
+public class Test {
+
+	@SuppressWarnings("finally")
+	public String m1() {
+		try {
+			System.out.println("In try block");
+			return "aaaa";
+		}
+
+		finally {
+			System.out.println("in finally");
+			return "bbb";
+		}
+	}
+
+	public static void main(String[] args) {
+		Test t = new Test();
+
+		System.out.println(t.m1());
+
+	}
+
+}
